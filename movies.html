@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anime Movies | AnimeWorld</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <input type="checkbox" id="dark-mode-toggle" class="dark-mode-checkbox">
+
+  <div class="site-wrapper">
+    <header class="navbar">
+      <div class="nav-container">
+        <div class="logo">Anime<span>World</span></div>
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <nav class="nav-links">
+           <ul class="icon-nav icon-nav--nav" aria-label="Quick navigation">
+            <li style="--i:#a955ff;--j:#ea51ff">
+              <a class="icon-nav-link" href="index.html">
+                <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                <span class="title">Home</span>
+              </a>
+            </li>
+            <li style="--i:#f8065f;--j:#2F80ED">
+              <a class="icon-nav-link" href="genres.html" aria-current="page">
+                <span class="icon"><ion-icon name="grid-outline"></ion-icon></span>
+                <span class="title">Genres</span>
+              </a>
+            </li>
+            <li style="--i:#0673fa;--j:#FF5E62">
+              <a class="icon-nav-link" href="movies.html">
+                <span class="icon"><ion-icon name="film-outline"></ion-icon></span>
+                <span class="title">Movies</span>
+              </a>
+            </li>
+          </ul>
+          <label for="dark-mode-toggle" class="mode-label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+          </label>
+        </nav>
+      </div>
+    </header>
+
+    <section class="genre-nav">
+      <div class="container flex-center">
+        <a href="#shinkai" class="genre-link">Shinkai</a>
+        <a href="#ghibli" class="genre-link">Ghibli</a>
+        <a href="#action" class="genre-link">Action</a>
+        <a href="#drama" class="genre-link">Drama</a>
+        <a href="#fantasy" class="genre-link">Fantasy</a>
+      </div>
+    </section>
+
+    <main class="container">
+      <!-- SHINKAI -->
+      <section id="shinkai" class="genre-section">
+        <h2 class="section-title highlight-title">Makoto Shinkai Films</h2>
+        <div class="card-grid">
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://i.ytimg.com/vi/yao9ww00ul4/hqdefault.jpg" alt="Your Name"></div><div class="card-content"><h3 class="card-title">Your Name</h3><div class="card-meta"><span>2016</span><span>Movie</span></div><div class="pills"><span class="pill">Romance</span></div><p class="card-summary">Two teenagers mysteriously swap bodies across time and distance. They leave messages to navigate each other's lives and search for a way to meet. A cosmic event reshapes their fate, turning memory into a race against time. A romantic fantasy about connection, longing, and destiny.</p></div></div></article>
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://m.media-amazon.com/images/S/pv-target-images/eda244e60652bf3c321ca08f1ee5af0af3ee22513117191ea321ea55252cba52.jpg" alt="Weathering With You"></div><div class="card-content"><h3 class="card-title">Weathering With You</h3><div class="card-meta"><span>2019</span><span>Movie</span></div><div class="pills"><span class="pill">Drama</span></div><p class="card-summary">Hodaka runs away to Tokyo and meets Hina, a girl who can bring sunlight. Their small “sunshine business” grows as the city sinks under endless rain. The choice to save someone comes with a heavy price. A romantic drama about weather, sacrifice, and hope.</p></div></div></article>
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://m.media-amazon.com/images/M/MV5BODhkNDhmNzktODFmMC00NDZiLWEzN2UtY2YwYzgzYTVlMWZmXkEyXkFqcGc@._V1_.jpg" alt="Suzume"></div><div class="card-content"><h3 class="card-title">Suzume</h3><div class="card-meta"><span>2022</span><span>Movie</span></div><div class="pills"><span class="pill">Adventure</span></div><p class="card-summary">Suzume meets a traveler and discovers doors that unleash disasters. She journeys across Japan to close them, confronting loss and memories along the way. The story blends road‑trip adventure with supernatural mystery. A healing tale about courage and moving forward.</p></div></div></article>
+        </div>
+      </section>
+
+      <!-- GHIBLI -->
+      <section id="ghibli" class="genre-section">
+        <h2 class="section-title highlight-title">Studio Ghibli</h2>
+        <div class="card-grid">
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://wallpapercave.com/wp/wp11538898.jpg" alt="Spirited Away"></div><div class="card-content"><h3 class="card-title">Spirited Away</h3><div class="card-meta"><span>2001</span><span>Movie</span></div><div class="pills"><span class="pill">Fantasy</span></div><p class="card-summary">Chihiro wanders into a spirit world where her parents are transformed. She must work at a bathhouse to save them and find her way home. Along the way she meets allies, spirits, and herself. A magical coming‑of‑age story about courage and identity.</p></div></div></article>
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://4kwallpapers.com/images/wallpapers/howls-moving-castle-2560x1440-18303.jpg" alt="Howl's Moving Castle"></div><div class="card-content"><h3 class="card-title">Howl's Moving Castle</h3><div class="card-meta"><span>2004</span><span>Movie</span></div><div class="pills"><span class="pill">Romance</span></div><p class="card-summary">Sophie is cursed into old age and seeks refuge in Howl's moving castle. She uncovers the wizard's secrets and the true cost of his power. Their bond grows amid war and magic. A whimsical romance about self‑worth and choice.</p></div></div></article>
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://w0.peakpx.com/wallpaper/365/624/HD-wallpaper-princess-mononoke-movies-san.jpg" alt="Princess Mononoke"></div><div class="card-content"><h3 class="card-title">Princess Mononoke</h3><div class="card-meta"><span>1997</span><span>Movie</span></div><div class="pills"><span class="pill">Adventure</span></div><p class="card-summary">Ashitaka is cursed and travels west seeking a cure. He becomes trapped between Iron Town and the forest gods, meeting San, the wolf‑raised princess. The conflict threatens nature and humanity alike. An epic fantasy about balance and consequence.</p></div></div></article>
+        </div>
+      </section>
+
+      <!-- ACTION -->
+      <section id="action" class="genre-section">
+        <h2 class="section-title highlight-title">Action & Adventure</h2>
+        <div class="card-grid">
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://images8.alphacoders.com/115/1150497.png" alt="Demon Slayer: Mugen Train"></div><div class="card-content"><h3 class="card-title">Demon Slayer: Mugen Train</h3><div class="card-meta"><span>2020</span><span>Movie</span></div><div class="pills"><span class="pill">Action</span></div><p class="card-summary">Tanjiro and his friends board the Mugen Train with Flame Hashira Rengoku. A demon traps passengers in dream worlds, forcing them to fight for their hearts. The final battle tests resolve and sacrifice. A fast, emotional action story.</p></div></div></article>
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnaSTuiAx1q1c0TBP--L4FDn3WXASl5NTn5g&s" alt="Jujutsu Kaisen 0"></div><div class="card-content"><h3 class="card-title">Jujutsu Kaisen 0</h3><div class="card-meta"><span>2021</span><span>Movie</span></div><div class="pills"><span class="pill">Cursed</span></div><p class="card-summary">Yuta is haunted by Rika, a powerful cursed spirit bound to him. He joins Jujutsu High to learn control and protect others. The prequel reveals the origin of a major conflict. A story of grief, friendship, and power.</p></div></div></article>
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkdC2YT5PYFryU14F6mktsT4Sk_snl2uZDAQ&s" alt="One Piece Film: Red"></div><div class="card-content"><h3 class="card-title">One Piece Film: Red</h3><div class="card-meta"><span>2022</span><span>Movie</span></div><div class="pills"><span class="pill">Adventure</span></div><p class="card-summary">The Straw Hats attend Uta's concert and uncover a dangerous plan. Secrets connect her to Shanks and a powerful ability. The crew must protect the world while music takes center stage. A high‑energy adventure with spectacle and emotion.</p></div></div></article>
+        </div>
+      </section>
+
+      <!-- DRAMA -->
+      <section id="drama" class="genre-section">
+        <h2 class="section-title highlight-title">Drama & Romance</h2>
+        <div class="card-grid">
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://wallpapercat.com/w/full/5/d/5/874867-3840x2160-desktop-4k-a-silent-voice-anime-background.jpg" alt="A Silent Voice"></div><div class="card-content"><h3 class="card-title">A Silent Voice</h3><div class="card-meta"><span>2016</span><span>Movie</span></div><div class="pills"><span class="pill">Drama</span></div><p class="card-summary">Shoya seeks redemption after bullying Shoko, a deaf classmate. He reconnects with her and confronts his own isolation and guilt. Their healing journey highlights empathy and forgiveness. A moving story about second chances.</p></div></div></article>
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://www.zavvi.com/images?url=https://static.thcdn.com/productimg/original/12370659-5265023733509851.jpg&format=webp&auto=avif&width=1000&height=1000&fit=cover" alt="I Want to Eat Your Pancreas"></div><div class="card-content"><h3 class="card-title">I Want to Eat Your Pancreas</h3><div class="card-meta"><span>2018</span><span>Movie</span></div><div class="pills"><span class="pill">Romance</span></div><p class="card-summary">A quiet boy discovers a classmate's diary and learns she is terminally ill. Their unlikely friendship changes them both as time runs out. The film balances humor, grief, and tenderness. A poignant story about living fully.</p></div></div></article>
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://i.pinimg.com/474x/97/1c/39/971c3945467f62a4e2705fb73a5a8a3d.jpg" alt="The Garden of Words"></div><div class="card-content"><h3 class="card-title">The Garden of Words</h3><div class="card-meta"><span>2013</span><span>Movie</span></div><div class="pills"><span class="pill">Romance</span></div><p class="card-summary">Takao skips school on rainy mornings and meets Yukari in a garden. Their quiet conversations grow into a subtle bond. Both are struggling with uncertainty and pain. A gentle romance about timing and healing.</p></div></div></article>
+        </div>
+      </section>
+
+      <!-- FANTASY -->
+      <section id="fantasy" class="genre-section">
+        <h2 class="section-title highlight-title">Fantasy & Sci-Fi</h2>
+        <div class="card-grid">
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://wallpapers.com/images/hd/summer-wars-1333-x-1083-wallpaper-y33lk44fgjzr4whg.jpg" alt="Summer Wars"></div><div class="card-content"><h3 class="card-title">Summer Wars</h3><div class="card-meta"><span>2009</span><span>Movie</span></div><div class="pills"><span class="pill">Sci-Fi</span></div><p class="card-summary">Kenji is pulled into a virtual world crisis during a family reunion. A rogue AI threatens the real world, and his math skills become the key. The family bands together to fight back. A lively mix of tech, teamwork, and heart.</p></div></div></article>
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://images8.alphacoders.com/101/1017513.jpg" alt="Akira"></div><div class="card-content"><h3 class="card-title">Akira</h3><div class="card-meta"><span>1988</span><span>Movie</span></div><div class="pills"><span class="pill">Cyberpunk</span></div><p class="card-summary">In Neo‑Tokyo, Tetsuo gains uncontrollable psychic power after a military experiment. His friendship with Kaneda fractures as chaos spreads. Political unrest and secret projects collide in a violent climax. A landmark cyberpunk tale of power and rebellion.</p></div></div></article>
+          <article class="anime-card"><div class="card-inner"><div class="card-img-wrapper"><img src="https://wallpapers.com/images/thumbnail/mima-kirigoe-perfect-blue-satoshi-kon-38brfcw3x87v50oa.webp" alt="perfect blue"></div><div class="card-content"><h3 class="card-title">perfect blue</h3><div class="card-meta"><span>2006</span><span>Movie</span></div><div class="pills"><span class="pill">Thriller</span></div><p class="card-summary">Mima, a former idol, becomes an actress and struggles with identity. Stalking, pressure, and paranoia blur the line between reality and performance. The story spirals into a psychological nightmare. A tense thriller about fame and self.</p></div></div></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 AnimeWorld. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    (function () {
+      var toggle = document.getElementById('dark-mode-toggle');
+      if (!toggle) { return; }
+      var saved = localStorage.getItem('darkMode');
+      if (saved === 'true') {
+        toggle.checked = true;
+      }
+      toggle.addEventListener('change', function () {
+        localStorage.setItem('darkMode', toggle.checked);
+      });
+    })();
+  </script>
+</body>
+</html>

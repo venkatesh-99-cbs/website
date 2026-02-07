@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AnimeWorld | Ultimate Database</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- DARK MODE TOGGLE (Hidden Checkbox) -->
+  <input type="checkbox" id="dark-mode-toggle" class="dark-mode-checkbox">
+  
+  <div class="site-wrapper">
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+      <div class="nav-container">
+        <div class="logo">Anime<span>World</span></div>
+        
+        <!-- MOBILE MENU CHECKBOX -->
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+        <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+
+        <nav class="nav-links">
+         
+        <ul class="icon-nav icon-nav--nav" aria-label="Quick navigation">
+            <li style="--i:#a955ff;--j:#ea51ff">
+              <a class="icon-nav-link" href="index.html">
+                <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                <span class="title">Home</span>
+              </a>
+            </li>
+            <li style="--i:#f8065f;--j:#2F80ED">
+              <a class="icon-nav-link" href="genres.html" aria-current="page">
+                <span class="icon"><ion-icon name="grid-outline"></ion-icon></span>
+                <span class="title">Genres</span>
+              </a>
+            </li>
+            <li style="--i:#0673fa;--j:#FF5E62">
+              <a class="icon-nav-link" href="movies.html">
+                <span class="icon"><ion-icon name="film-outline"></ion-icon></span>
+                <span class="title">Movies</span>
+              </a>
+            </li>
+          </ul>
+          <label for="dark-mode-toggle" class="mode-label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+          </label>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">BEYOND <br>DIMENSIONS</h1>
+        <p class="hero-subtitle">
+          Experience the ultimate anime database. Curated lists, trending titles, and cinematic masterpieces waiting for you.
+        </p>
+        <div class="hero-btns">
+          <a href="genres.html" class="btn btn-primary">Explore Now</a>
+          <a href="#trending" class="btn btn-outline">Top Anime</a>
+          <a href="movies.html" class="btn btn-outline">Movies Page</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TRENDING ================= -->
+    <section id="trending" class="trending section-padding">
+      <div class="container">
+        <div class="trending-header">
+          <h2 class="section-title highlight-title">Top 5 Anime</h2>
+          <p class="section-desc">Discover the most-watched series right now, from action-heavy epics to emotional story-driven sagas curated for every kind of fan.</p>
+        </div>
+        <div class="card-grid">
+          <!-- Card Template with 3D effect -->
+          <article class="anime-card">
+            <div class="card-inner">
+              <div class="card-img-wrapper">
+                <img src="https://preview.redd.it/is-attack-on-titan-a-good-entry-level-anime-for-someone-v0-970wisbt9n7f1.jpg?width=500&format=pjpg&auto=webp&s=9dbd987658030890aa6a962b0c0cf9d9b4729473" alt="Attack on Titan">
+                <div class="card-overlay">
+                  <span class="genre-tag">Action</span>
+                  <span class="genre-tag">Drama</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Attack on Titan</h3>
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 2013</span>
+                  <span><i class="fas fa-layer-group"></i> 87 Eps</span>
+                </div>
+                <p class="card-summary">Humanity hides behind walls to survive against Titans. Eren witnesses tragedy and vows to fight back, uncovering secrets about the world. A dark tale of survival, war, and identity.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="anime-card">
+            <div class="card-inner">
+              <div class="card-img-wrapper">
+                <img src="https://wallpapercave.com/wp/wp12029589.jpg" alt="Jujutsu Kaisen">
+                <div class="card-overlay">
+                  <span class="genre-tag">Shounen</span>
+                  <span class="genre-tag">Cursed</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Jujutsu Kaisen</h3>
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 2020</span>
+                  <span><i class="fas fa-layer-group"></i> 48 Eps</span>
+                </div>
+                <p class="card-summary">Yuji swallows a cursed finger to save his friends and becomes Sukuna's host. He joins Jujutsu High to fight curses and learn control. Action-heavy battles with heart and camaraderie.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="anime-card">
+            <div class="card-inner">
+              <div class="card-img-wrapper">
+                <img src="https://wallpapercave.com/wp/wp14351233.jpg" alt="Solo Leveling">
+                <div class="card-overlay">
+                  <span class="genre-tag">Fantasy</span>
+                  <span class="genre-tag">Action</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Solo Leveling</h3>
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 2024</span>
+                  <span><i class="fas fa-layer-group"></i> 12 Eps</span>
+                </div>
+                <p class="card-summary">Sung Jinwoo, the weakest hunter, survives a deadly dungeon and gains a leveling system. He grows rapidly while facing new threats and secrets. A power-fantasy about grit and responsibility.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="anime-card">
+            <div class="card-inner">
+              <div class="card-img-wrapper">
+                <img src="https://wallpapers.com/images/hd/demon-slayer-anime-to-the-swordsmith-village-05crqo0e0fzkql5q.jpg" alt="Demon Slayer">
+                <div class="card-overlay">
+                  <span class="genre-tag">Action</span>
+                  <span class="genre-tag">Shounen</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Demon Slayer</h3>
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 2019</span>
+                  <span><i class="fas fa-layer-group"></i> 55 Eps</span>
+                </div>
+                <p class="card-summary">Tanjiro's family is slaughtered and his sister becomes a demon. He joins the Demon Slayer Corps seeking a cure and justice. A journey of compassion, training, and fierce battles.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="anime-card">
+            <div class="card-inner">
+              <div class="card-img-wrapper">
+                <img src="https://cdn.wallpapersafari.com/58/27/psl9Hq.jpg" alt="One Piece">
+                <div class="card-overlay">
+                  <span class="genre-tag">Adventure</span>
+                  <span class="genre-tag">Fantasy</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">One Piece</h3>
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 1999</span>
+                  <span><i class="fas fa-layer-group"></i> 1100+ Eps</span>
+                </div>
+                <p class="card-summary">Monkey D. Luffy sails the Grand Line to find the One Piece and become Pirate King. He gathers a loyal crew and challenges tyrants and legends. An epic adventure about freedom and friendship.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="section-cta">
+          <a href="genres.html" class="btn btn-primary">View All Anime</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MOVIES ================= -->
+    <section id="movies" class="section-padding">
+      <div class="container">
+        <div class="trending-header">
+          <h2 class="section-title highlight-title">Featured Movies</h2>
+        </div>
+        <div class="card-grid">
+          <article class="anime-card">
+            <div class="card-inner">
+              <div class="card-img-wrapper">
+                <img src="https://i.ytimg.com/vi/yao9ww00ul4/hqdefault.jpg" alt="Your Name">
+                <div class="card-overlay">
+                  <span class="genre-tag">Drama</span>
+                  <span class="genre-tag">Fantasy</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Your Name</h3>
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 2016</span>
+                  <span><i class="fas fa-film"></i> Movie</span>
+                </div>
+                <p class="card-summary">Two teenagers mysteriously swap bodies across time and distance. They try to connect before a cosmic event changes their lives. A romantic fantasy about memory, fate, and longing.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="anime-card">
+            <div class="card-inner">
+              <div class="card-img-wrapper">
+                <img src="https://m.media-amazon.com/images/M/MV5BODhkNDhmNzktODFmMC00NDZiLWEzN2UtY2YwYzgzYTVlMWZmXkEyXkFqcGc@._V1_.jpg" alt="Suzume">
+                <div class="card-overlay">
+                  <span class="genre-tag">Adventure</span>
+                  <span class="genre-tag">Fantasy</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Suzume</h3>
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 2022</span>
+                  <span><i class="fas fa-film"></i> Movie</span>
+                </div>
+                <p class="card-summary">Suzume meets a traveler and discovers doors that unleash disasters. She sets out to close them across Japan while facing loss and hope. A journey of healing and courage.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="anime-card">
+            <div class="card-inner">
+              <div class="card-img-wrapper">
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/eda244e60652bf3c321ca08f1ee5af0af3ee22513117191ea321ea55252cba52.jpg" alt="Weathering With You">
+                <div class="card-overlay">
+                  <span class="genre-tag">Romance</span>
+                  <span class="genre-tag">Drama</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Weathering With You</h3>
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 2019</span>
+                  <span><i class="fas fa-film"></i> Movie</span>
+                </div>
+                <p class="card-summary">Hodaka meets Hina, a girl who can bring sunlight to rainy Tokyo. Their bond grows as they navigate sacrifice and destiny. A romantic fantasy about weather and choice.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="anime-card">
+            <div class="card-inner">
+              <div class="card-img-wrapper">
+                <img src="https://wallpapercat.com/w/full/5/d/5/874867-3840x2160-desktop-4k-a-silent-voice-anime-background.jpg" alt="A Silent Voice">
+                <div class="card-overlay">
+                  <span class="genre-tag">Drama</span>
+                  <span class="genre-tag">Slice of Life</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">A Silent Voice</h3>
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 2016</span>
+                  <span><i class="fas fa-film"></i> Movie</span>
+                </div>
+                <p class="card-summary">Shoya seeks redemption after bullying a deaf classmate in childhood. He reconnects with Shoko and confronts guilt and isolation. A moving story about forgiveness and healing.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="anime-card">
+            <div class="card-inner">
+              <div class="card-img-wrapper">
+                <img src="https://wallpapercave.com/wp/wp11538898.jpg" alt="Spirited Away">
+                <div class="card-overlay">
+                  <span class="genre-tag">Fantasy</span>
+                  <span class="genre-tag">Adventure</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Spirited Away</h3>
+                <div class="card-meta">
+                  <span><i class="far fa-calendar"></i> 2001</span>
+                  <span><i class="fas fa-film"></i> Movie</span>
+                </div>
+                <p class="card-summary">Chihiro enters a spirit world and her parents are transformed. She must work at a bathhouse to save them and return home. A magical coming-of-age about courage and identity.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="section-cta">
+          <a href="movies.html" class="btn btn-primary">View All Movies</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-links">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-discord"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>© 2026 AnimeWorld. Built with pure HTML/CSS.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    (function () {
+      var toggle = document.getElementById('dark-mode-toggle');
+      if (!toggle) { return; }
+      var saved = localStorage.getItem('darkMode');
+      if (saved === 'true') {
+        toggle.checked = true;
+      }
+      toggle.addEventListener('change', function () {
+        localStorage.setItem('darkMode', toggle.checked);
+      });
+    })();
+  </script>
+</body>
+</html>
